@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("ultimo_sopravvissuto.jpg", cv2.IMREAD_GRAYSCALE) # queryiamge
+img = cv2.imread("image.jpg", cv2.IMREAD_GRAYSCALE) # queryiamge
 cap = cv2.VideoCapture(0)
 # Features
 sift = cv2.xfeatures2d.SIFT_create()
